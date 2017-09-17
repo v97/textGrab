@@ -6,7 +6,7 @@ import numpy as np
 inputText = 'This is a sentence'
 indicoio.config.api_key = 'ab83001ca5c484aa92fc18a5b2d6585c'
 
-categories = ['education', 'nutrition']
+categories = ['education', 'nutrition', '']
 categorySentences = []
 for category in range(4):
     counter = 0
